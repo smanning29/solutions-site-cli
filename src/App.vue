@@ -1,28 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="w-full text-center text-xl flex flex-row bg-white">
+        <header class=" w-1/2 font-display text-drawdown text-base md:text-mdlg text-left pt-5 pb-2" data-aos="fade">
+            DRAWDOWN ADAPTED
+        </header>
+        <div id="nav" class=" w-1/2 text-body text-sml md:text-base text-drawdown text-right pb-0 mb-0 pt-3 md:pt-10">
+          <router-link to="/" class="px-5 hover:text-sky" data-aos="fade" data-aos-delay="50">Home</router-link> |
+          <router-link to="/solutions" class="px-5 hover:text-sky" data-aos="fade" data-aos-delay="100">Solutions</router-link>
+        </div>
+    </div>
+    <router-view/>
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
