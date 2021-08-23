@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="50">
+    <div>
         <div class="hover-container">
             <img :src="['../assets/img/c'+ solutionNum +'.png']" :alt="['Solution #'+solutionNum+' - '+solutionName]" class="hover-img">
             <a href="#">
