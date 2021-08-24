@@ -19,6 +19,7 @@ import SolutionAside from '@/components/SolutionAside.vue'
 export default {
     name: 'Solutions',
     components: {
+        
         SolutionHeader,
         SolutionBody,
         SolutionAside
