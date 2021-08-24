@@ -3,7 +3,7 @@
     <SolutionHeader :solution-num="(solutionIndex+1)" :solution-name="solHeaders[solutionIndex]"/>
     <div class="lg:flex lg:flex-row bg-white font-body">
         <SolutionBody :solution-num="(solutionIndex+1)" :first-par="paragraph1[solutionIndex]" :first-sub="subheader1[solutionIndex]" :second-par="paragraph2[solutionIndex]" :first-img-cap="caption1[solutionIndex]" :second-sub="subheader2[solutionIndex]" :third-par="paragraph3[solutionIndex]" :third-sub="subheader3[solutionIndex]" :fourth-par="paragraph4[solutionIndex]" :second-img-cap="caption2[solutionIndex]" :fourth-sub="subheader4[solutionIndex]" :fifth-par="paragraph5[solutionIndex]" />
-        <SolutionAside/>
+        <SolutionAside :co-num="co2[solutionIndex]" :key-words="keyWords[solutionIndex]" :sol-link="DDlinks[solutionIndex]" :sol-pdf="PDFlinks[solutionIndex]" />
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ import SolutionAside from '@/components/SolutionAside.vue'
 
 
 export default {
-name: 'Solutions',
+    name: 'Solutions',
     components: {
         SolutionHeader,
         SolutionBody,
@@ -56,42 +56,6 @@ name: 'Solutions',
             "LED Lighting",
             "Perennial Staple Crops",
             "Tree Intercropping"
-        ],
-        coNum: [
-            //1-5
-            "90.7–101.71","85.42","65.01-91.72","57.75","54.45–85.14",
-            //6-10
-            "47.21–147.72","43.53–50.53","42.32–119.13","31.34–72.65","27.98–68.64",
-            //11-15
-            "26.58–42.31","26.03–41.93","22.24–35.94","19.42–27.85","18.6–23.96",
-            //16-20
-            "16.97–19.01","16.42–26.01","16.07–17.53","15.45–31.26","15.03–24.4"
-        ],
-        solLink: [
-            //1-5
-            "https://www.drawdown.org/solutions/reduced-food-waste",
-            "https://www.drawdown.org/solutions/health-and-education",
-            "https://www.drawdown.org/solutions/plant-rich-diets",
-            "https://www.drawdown.org/solutions/refrigerant-management",
-            "https://www.drawdown.org/solutions/tropical-forest-restoration",
-            //6-10
-            "https://www.drawdown.org/solutions/onshore-wind-turbines",
-            "https://www.drawdown.org/solutions/alternative-refrigerants",
-            "https://www.drawdown.org/solutions/utility-scale-solar-photovoltaics",
-            "https://www.drawdown.org/solutions/improved-clean-cookstoves",
-            "https://www.drawdown.org/solutions/distributed-solar-photovoltaics",
-            //11-15
-            "https://www.drawdown.org/solutions/silvopasture",
-            "https://www.drawdown.org/solutions/peatland-protection-and-rewetting",
-            "https://www.drawdown.org/solutions/tree-plantations-on-degraded-land",
-            "https://www.drawdown.org/solutions/temperate-forest-restoration",
-            "https://www.drawdown.org/solutions/concentrated-solar-power",
-            //16-20
-            "https://www.drawdown.org/solutions/insulation",
-            "https://www.drawdown.org/solutions/managed-grazing",
-            "https://www.drawdown.org/solutions/led-lighting",
-            "https://www.drawdown.org/solutions/perennial-staple-crops",
-            "https://www.drawdown.org/solutions/tree-intercropping"
         ],
         paragraph1: [
             //1-5
@@ -432,6 +396,79 @@ name: 'Solutions',
             `Today, about 89 percent of agricultural land is used to grow annual plants. That is almost 3 billion acres just for crops like corn! One acre is only a little bit bigger than an American football field. 3 billion football fields is a lot of land and a lot of energy used to grow these annual crops. When land used to grow annual crops is converted to perennial crops, the amount of carbon the land and plants can absorb increases by about two tons per acre! Climate change is a global problem and will change plant-growing conditions around the world. This makes perennial crops even more important. 
                 Perennial plants can live in a lot of different places and are much more resilient to the weather changes that we will see in the future.`,
             `As machines replaced people working in crop fields over the past 100 years, the mixing of crops and trees became much less common. Farmers are now realizing the importance of tree intercropping. It can help us grow healthy food, take care of the land, and address global warming at the same time.`
+        ],
+
+        co2: [
+            //1-5
+            "90.7–101.71","85.42","65.01-91.72","57.75","54.45–85.14",
+            //6-10
+            "47.21–147.72","43.53–50.53","42.32–119.13","31.34–72.65","27.98–68.64",
+            //11-15
+            "26.58–42.31","26.03–41.93","22.24–35.94","19.42–27.85","18.6–23.96",
+            //16-20
+            "16.97–19.01","16.42–26.01","16.07–17.53","15.45–31.26","15.03–24.4"
+        ],
+        DDlinks: [
+            //1-5
+            "https://www.drawdown.org/solutions/reduced-food-waste",
+            "https://www.drawdown.org/solutions/health-and-education",
+            "https://www.drawdown.org/solutions/plant-rich-diets",
+            "https://www.drawdown.org/solutions/refrigerant-management",
+            "https://www.drawdown.org/solutions/tropical-forest-restoration",
+            //6-10
+            "https://www.drawdown.org/solutions/onshore-wind-turbines",
+            "https://www.drawdown.org/solutions/alternative-refrigerants",
+            "https://www.drawdown.org/solutions/utility-scale-solar-photovoltaics",
+            "https://www.drawdown.org/solutions/improved-clean-cookstoves",
+            "https://www.drawdown.org/solutions/distributed-solar-photovoltaics",
+            //11-15
+            "https://www.drawdown.org/solutions/silvopasture",
+            "https://www.drawdown.org/solutions/peatland-protection-and-rewetting",
+            "https://www.drawdown.org/solutions/tree-plantations-on-degraded-land",
+            "https://www.drawdown.org/solutions/temperate-forest-restoration",
+            "https://www.drawdown.org/solutions/concentrated-solar-power",
+            //16-20
+            "https://www.drawdown.org/solutions/insulation",
+            "https://www.drawdown.org/solutions/managed-grazing",
+            "https://www.drawdown.org/solutions/led-lighting",
+            "https://www.drawdown.org/solutions/perennial-staple-crops",
+            "https://www.drawdown.org/solutions/tree-intercropping"
+        ],
+        PDFlinks: [],
+        keyWords: [
+            //1-5
+            "no",
+            `<div class="font-bold">reproductive healthcare</div>This means that people can have a healthy reproductive system and they have the ability to reproduce and have a family when they choose to.
+            <div class="font-bold pt-2">equal educational opportunities</div> An education that is equitable and accessible to all genders and that prepares all students to be decision-makers and knowledge-producers.`,
+            "no",
+            `<div class="font-bold">ozone layer</div> The ozone layer is a layer of Earth’s atmosphere that absorbs most of the ultraviolet (UV) energy reaching Earth from the sun.`,
+            `<div class="font-bold pt-2">pollinator</div> an animal or insect that moves pollen from plant to plant in order to fertilize the flowers
+            <div class="font-bold">erosion</div> Erosion is when soil and rocks are slowly moved from one area to another by wind and rain. 
+            <div class="font-bold pt-2">invasive plants</div> Plants that don’t belong in a certain ecosystem are called invasive plants. They can hurt an ecosystem because they disrupt the relationships between the native plants (plants that naturally grow in a place) and the animals that live there. When people remove invasive plants, tropical forests can grow strong.`,
+            //6-10
+            `<div class="font-bold">graze</div> Graze means eat grass in a field. Many cows graze in open fields.
+            <div class="font-bold pt-2">conserve</div> Conserve means to protect from harm or destruction. When we conserve the environment, we protect it from being destroyed by human activity, like farming or building homes.`,
+            `<div class="font-bold">ozone layer</div> The ozone layer is a layer of Earth’s atmosphere that absorbs most of the ultraviolet (UV) energy reaching Earth from the sun.
+            <div class="font-bold pt-2">Montreal Protocol</div> Learn more about this in the Refrigerant Management solution.`,
+            `<div class="font-bold">watt</div> A watt is a way to measure power, or the speed of energy transfer of appliances. For example, many lightbulbs in homes are 60 watts. That means they will change 60 joules of electrical energy into light energy every second.`,
+            `<div class="font-bold">carbon monoxide</div> In many buildings and homes in the U.S., carbon monoxide alarms are placed on the walls. There are probably a few in your school, or your home. Carbon monoxide is toxic to breathe, which is why so many of these alarms are installed.
+            <div class="font-bold pt-2">black carbon</div> This is created when certain things are burned. It forms a powdery black dust called soot. It also is very bad for human health. `,
+            "no",
+            //11-15
+            `<div class="font-bold">ecosystem</div> An ecosystem is a community of living organisms (such as plants, animals, and bacteria) along with the nonliving parts of their environments (such as air, water, sunlight, and soil).`,
+            `<div class="font-bold">decompose</div> Decomposition is when formerly living things (plants and animals) are broken down into their component parts, such as carbon dioxide, water, salts and simple sugars.`,
+            `<div class="font-bold">perennial plants</div> Perennials are plants that live more than two years. Technically trees and shrubs are perennials, but trees and shrubs have woody branches whereas perennial plants do not. Examples of perennials are lilies, lavender, and daisies.
+            <div class="font-bold pt-2">biodiversity</div> Biodiversity means that lots of different kinds of plants and animals live together in an area.`,
+            "no",
+            `<div class="font-bold">turbine</div> A turbine is a machine with a wheel or rotor with vanes. When the turbine spins, it creates electricity.
+            <div class="font-bold pt-2">reliable</div> Reliable means that the quality is consistent over time. CSP plants can be trusted to make the same amount of electricity each day.`,
+           //16-20
+            `<div class="font-bold">insulation</div>Insulation in homes and buildings is a material that builders use to stop heat from escaping or entering the building.`,
+            `<div class="font-bold">ecosystem</div> An ecosystem is a community of living organisms (such as plants, animals, and bacteria) along with the nonliving parts of their environments (such as air, water, sunlight, and soil).`,
+            "no",
+            `<div class="font-bold">erosion</div> Erosion is when soil and rocks are slowly moved from one area to another by wind and rain.`,
+            `<div class="font-bold">crops</div> Crops are plants that farmers grow for food. Examples are vegetables, grains (like wheat), and fruits.
+            <div class="font-bold pt-2">erosion</div> Erosion is when soil and rocks are slowly moved from one area to another by wind and rain. `
         ],
     })
 }

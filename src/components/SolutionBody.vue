@@ -25,7 +25,7 @@
             </p>
 
             <!-- CONDITIONAL PARAGRAPHS -->
-            <h3 v-if="thirdSub != 'no'" class="font-light font-body text-base text-drawdown tracking-wide px-5" v-html="thirdSubH">
+            <h3 v-if="thirdSub != 'no'" class="font-light font-body text-base text-drawdown tracking-wide px-5" v-html="thirdSub">
                 subheader 3
             </h3>
             <p v-if="fourthPar != 'no'" class="p-5 text-smd md:leading-8" v-html="fourthPar">
