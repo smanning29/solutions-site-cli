@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row flex-wrap z-0 pb-32">
+  <div class="flex flex-row flex-wrap z-0 pb-10">
     <div v-on:click="setSolutionIndex(0)" class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="50">
       <router-link to="/solutions">
         <HoverBox solution-num="1" solution-name="Reduced Food Waste"/>
@@ -50,14 +50,7 @@
         <HoverBox solution-num="10" solution-name="Distributed Solar Power" />
       </router-link>
     </div>
-
-    <div class="lg:w-full md:w-2/3 w-full p-4 relative" data-aos="fade" data-aos-delay="500">
-      <router-link to="/solutions">
-        <HoverBoxE top-text="Learn More About" main-text="Drawdown Adapted" img-name="c-full" />
-      </router-link>
-    </div>
-
-    <div v-on:click="setSolutionIndex(10)" class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="50">
+     <div v-on:click="setSolutionIndex(10)" class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="50">
       <router-link to="/solutions">
         <HoverBox solution-num="11" solution-name="Silvopasture"/>
       </router-link>
@@ -107,6 +100,15 @@
         <HoverBox solution-num="20" solution-name="Tree Intercropping" />
       </router-link>
     </div>
+
+    <div class="lg:w-full md:w-2/3 w-full p-4 relative" data-aos="fade" data-aos-delay="500">
+      <router-link to="/about">
+        <HoverBoxE top-text="Learn More About" main-text="Climate Solutions For Kids" img-name="c-full" />
+      </router-link>
+    </div>
+
+   
+
   </div>
 </template>
 
