@@ -56,11 +56,11 @@
 
             <div class="flex flex-row p-5 pb-10">
                 
-                    <a class="w-1/2 bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center mr-2 p-5 text-smd rounded-md" v-on:click="decreaseSolutionIndex()" href="#top-anchor">
+                    <a class="w-1/2 transition duration-500 ease-in-out bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center mr-2 p-5 text-smd rounded-md motion-reduce:transition-none" v-on:click="decreaseSolutionIndex()" href="#top-anchor">
                         PREVIOUS SOLUTION
                     </a>
                 
-                    <a class="w-1/2 bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center ml-2 p-5 text-smd rounded-md" v-on:click="increaseSolutionIndex()" href="#top-anchor">
+                    <a class="w-1/2 transition duration-500 ease-in-out bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center ml-2 p-5 text-smd rounded-md motion-reduce:transition-none" v-on:click="increaseSolutionIndex()" href="#top-anchor">
                         NEXT SOLUTION
                     </a>
             </div>

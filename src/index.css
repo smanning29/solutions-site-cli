@@ -42,3 +42,11 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .svgDrawdown {
+    fill: #11487c;
+  }
+
+  .svgSky { 
+    fill: #7fa1c1;
+  }

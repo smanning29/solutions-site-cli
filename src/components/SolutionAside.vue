@@ -22,16 +22,16 @@
         </div>
 
         <a v-bind:href="solLink" target="_blank">
-            <div class="bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center my-5 p-5 text-smd rounded-md">
+            <div class="transition duration-500 ease-in-out bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center my-5 p-5 text-smd rounded-md motion-reduce:transition-none">
                 VIEW THE ORIGINAL SOLUTION
             </div>
         </a>
         <a v-bind:href="solPDF" target="_blank">
-            <div class="bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center my-5 p-5 text-smd rounded-md">
+            <div class="transition duration-500 ease-in-out bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center my-5 p-5 text-smd rounded-md motion-reduce:transition-none">
                 DOWNLOAD THIS SOLUTION TO PRINT
             </div>
         </a>
-        <a class="text-drawdown italic hover:underline" href="">
+        <a class="text-drawdown italic hover:underline transition duration-500 ease-in-out" href="">
             or download Top 20 Solutions to print
         </a>
         

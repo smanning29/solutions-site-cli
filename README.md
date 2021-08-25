@@ -1,6 +1,15 @@
 # solutions-site-cli
 
-## Project setup
+## Created by Sarah Manning for Enacting Climate https://enactingclimate.org/
+
+Web version of the Drawdown Adaptation for 5th Grade project
+
+App created with Vue.js
+
+Styling done with Tailwind CSS processed with Gulp and PostCSS
+
+### Project structure
+### Project setup
 ```
 npm install
 ```
