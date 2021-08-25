@@ -4,11 +4,27 @@
 
 Web version of the Drawdown Adaptation for 5th Grade project
 
-App created with Vue.js
+Single page app created with Vue-Cli https://cli.vuejs.org/ 
 
-Styling done with Tailwind CSS processed with Gulp and PostCSS
+Styling done with Tailwind CSS https://tailwindcss.com/docs
+
+Includes Animate on Scroll Library https://github.com/michalsnik/aos
 
 ### Project structure
+```
+<App.vue>
+    <Header> <Nav>
+    <router-view>
+        <Home.vue>
+            <HoverBox.vue>
+            <HoverBoxE.vue>
+        <Solutions.vue>
+            <SolutionHeader.vue>
+            <SolutionBody.vue>
+            <SolutionAside.vue>
+        <About.vue>
+    <Footer>
+```
 ### Project setup
 ```
 npm install
