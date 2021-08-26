@@ -15,7 +15,6 @@ import SolutionHeader from '@/components/SolutionHeader.vue';
 import SolutionBody from '@/components/SolutionBody.vue';
 import SolutionAside from '@/components/SolutionAside.vue'
 
-
 export default {
     name: 'Solutions',
     components: {
@@ -23,11 +22,15 @@ export default {
         SolutionBody,
         SolutionAside
     },
+    // props: {
+    //     directSolIndex: Number
+    // },
     computed: {
         ...mapState(["solutionIndex"])
     },
     methods: {
-        ...mapMutations(["increaseSolutionIndex", "decreaseSolutionIndex"])
+        ...mapMutations(["increaseSolutionIndex", "decreaseSolutionIndex"]),
+        
     },
     data: ()=> ({
         bgImgs: ["url(../assets/img/s1-0.jpg)","url(../assets/img/s2-0.jpg)","url(../assets/img/s3-0.jpg)","url(../assets/img/s4-0.jpg)","url(../assets/img/s5-0.jpg)","url(../assets/img/s6-0.jpg)","url(../assets/img/s7-0.jpg)","url(../assets/img/s8-0.jpg)","url(../assets/img/s9-0.jpg)","url(../assets/img/s10-0.jpg)","url(../assets/img/s11-0.jpg)","url(../assets/img/s12-0.jpg)","url(../assets/img/s13-0.jpg)","url(../assets/img/s14-0.jpg)","url(../assets/img/s15-0.jpg)","url(../assets/img/s16-0.jpg)","url(../assets/img/s17-0.jpg)","url(../assets/img/s18-0.jpg)","url(../assets/img/s19-0.jpg)","url(../assets/img/s20-0.jpg)"],

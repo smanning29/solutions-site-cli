@@ -12,17 +12,17 @@ Includes Animate on Scroll Library https://github.com/michalsnik/aos
 
 ### Project structure
 ```
-<App.vue>
+-App.vue-
     <Header> <Nav>
     <router-view>
-        <Home.vue>
+        -Home.vue-
             <HoverBox.vue>
             <HoverBoxE.vue>
-        <Solutions.vue>
+        -Solutions.vue-
             <SolutionHeader.vue>
             <SolutionBody.vue>
             <SolutionAside.vue>
-        <About.vue>
+        -About.vue-
     <Footer>
 ```
 ### Project setup

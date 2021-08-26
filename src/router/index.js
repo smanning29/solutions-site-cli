@@ -11,14 +11,14 @@ const routes = [
     component: Home
   },
   {
-    path: '/Solutions',
-    name: 'Solutions',
-    component: () => import('../views/Solutions.vue')
-  },
-  {
     path: '/About',
     name: 'About',
     component: () => import('../views/About.vue')
+  },
+  {
+    path: '/Solutions',
+    name: 'Solutions',
+    component: () => import('../views/Solutions.vue')
   }
 ]
 
@@ -27,5 +27,7 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
+
 
 export default router

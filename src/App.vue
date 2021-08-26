@@ -15,7 +15,7 @@
         </div>
     </div>
     <router-view/>
-    <footer class="md:flex md:flex-row w-full md:px-10 px-5 pb-10">
+    <footer class="md:flex md:flex-row w-full md:px-10 px-5 pb-10 text-drawdown font-light italic">
       <div class="md:w-1/2 pb-5 md:pb-0">
         Footer text or links here
       </div>

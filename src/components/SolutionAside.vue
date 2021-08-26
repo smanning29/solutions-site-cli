@@ -3,7 +3,7 @@
     <div class="lg:order-1 lg:w-1/4 p-5" data-aos="fade">
 
         <div class="my-5 p-5 bg-forest text-white font-light tracking-wider text-smd" >
-            <div class="font-display text-mdlg" v-html="coNum">
+            <div class="font-display text-md leading-none pb-2" v-html="coNum">
                 57.6–159
             </div>
             GIGATONS
