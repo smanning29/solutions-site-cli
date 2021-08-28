@@ -180,48 +180,48 @@ export default {
             `<span class="font-bold">Food supply chain: </span>
                 This is a simple version of how food gets from the farm to our stores. There are lots of different spots where food can get lost or wasted before it even makes it to the store!`,
             `<span class="font-bold">Studying reproductive health: </span>
-                Young women in Malope, South Africa study reproductive health.`,
+                Young women in Malope, South Africa study reproductive health. <span class="italic">Photo by Melisande Osnes</span>`,
             `<span class="font-bold">Plant-based party: </span>
-                Making a feast focused on plants with friends or family is a great way to encourage people to make good choices for the planet.`,
+                Making a feast focused on plants with friends or family is a great way to encourage people to make good choices for the planet. <span class="italic">Photo by Beth Osnes</span>`,
             `<span class="font-bold">Ozone layer over time: </span>
-                These images show how the ozone “hole” in the South pole has changed over time. The blue and purple areas are where there is less ozone, so the ozone layer is thinner. The Montreal Protocol was created after scientists saw this “hole” growing larger.`,
+                These images show how the ozone “hole” in the South pole has changed over time. The blue and purple areas are where there is less ozone, so the ozone layer is thinner. The Montreal Protocol was created after scientists saw this “hole” growing larger. <span class="italic"><a target="_blank" href="https://earthobservatory.nasa.gov/world-of-change/Ozone" class="hover:underline">Photo by NASA Earth Observatory</a></span>`,
             `<span class="font-bold">Promoting recycled paper: </span>
-                Young people can help reduce the need for tropical forest restoration by promoting the use of recycled paper products that come from trees as in this skit, Recycled Toilet Paper included in (link to act page)`,
+                Young people can help reduce the need for tropical forest restoration by promoting the use of recycled paper products that come from trees as in this skit, Recycled Toilet Paper included in (link to act page). <span class="italic">Photo by Max Boykoff</span>`,
                 // ! LINK TO THE ACT PAGE !
             //6-10
             `<span class="font-bold">Acting it out: </span>
-                Performing skits is one way to let people know about the benefits of wind power! Here, youth perform a skit, Wind Turbines are Beautiful from the Enacting Climate activities found at (link)`,
+                Performing skits is one way to let people know about the benefits of wind power! Here, youth perform a skit, Wind Turbines are Beautiful from the Enacting Climate activities found at (link). <span class="italic">Photo by Isabel Cousins</span>`,
                 // ! LINK TO THE ACT PAGE !
             `<span class="font-bold">Meeting of the Parties to the Montreal Protocol: </span>
-                Each year, every country who signed the Montreal Protocol will send a representative to this meeting to make sure they are meeting the reccommendations made by scientists.`,
+                Each year, every country who signed the Montreal Protocol will send a representative to this meeting to make sure they are meeting the reccommendations made by scientists. <span class="italic">Photo by Paul Kagame on Flickr</span>`,
             `<span class="font-bold">Acting it out: </span>
-                Students at Tuba City High School within the Navajo Nation enact power generation from solar photovoltaics.`,
+                Students at Tuba City High School within the Navajo Nation enact power generation from solar photovoltaics. <span class="italic">Photo by Beth Osnes</span>`,
             `<span class="font-bold">Gathering fuel for cooking: </span>
                 In many communities that continue to cook over open flames, women and girls collect the fuel. This arrangement negatively impacts the lives of women and girls more than men and boys.`,
             `<span class="font-bold">Solar panels on a roof: </span>
-                More and more homes are getting solar panels as they become less expensive to install. `,
+                More and more homes are getting solar panels as they become less expensive to install. <span class="italic">Photo by Pujanak on Wikimedia Commons</span>`,
             //11-15
             `<span class="font-bold">Trees sequestering carbon: </span>
                 Trees take carbon dioxide (1) and convert it to oxygen (2) for us to breathe. While doing that, the tree also returns carbon back to the soil.`,
             `<span class="font-bold">Peatland Map: </span>
-                The green areas on this map are where peatlands are located. The countries in gray are countries that have known peatlands. The countries in gray have known peatlands. Interestingly, almost all countries in the world have peatlands.`,
+                The green areas on this map are where peatlands are located. The countries in gray are countries that have known peatlands. The countries in gray have known peatlands. Interestingly, almost all countries in the world have peatlands. <span class="italic"><a target="_blank" href="https://www.grida.no/publications/355" class="hover:underline">Photo by Levi Westerveld</a></span>`,
             `<span class="font-bold">Afforestation in India: </span>
-                These people are helping to plant trees as part of an afforestation project in Kanakakunnu, India.`,
+                These people are helping to plant trees as part of an afforestation project in Kanakakunnu, India. <span class="italic">Photo by Beman Herish on Wikimedia commons</span>`,
             `<span class="font-bold">Enjoying temperate forests: </span>
-                If you like to hike,  camp, or visit the outdoors, there’s a good chance that you have visited a temperate forest! It is important to preserve these places for the planet.`,
+                If you like to hike,  camp, or visit the outdoors, there’s a good chance that you have visited a temperate forest! It is important to preserve these places for the planet. <span class="italic">Photo by Juliane Liebermann on Unsplash</span>`,
             `<span class="font-bold">Curved mirrors: </span>
-                Normal solar panels are flat. Concentrated solar uses curved mirrors to angle the energy from the sun at the solar tower.`,
+                Normal solar panels are flat. Concentrated solar uses curved mirrors to angle the energy from the sun at the solar tower. <span class="italic">Photo by IRENA on Flickr</span>`,
             //16-20
             `<span class="font-bold">Recycled insulation: </span>
-                This insulation was made from old blue jeans. While all types of insulation help make homes more energy efficient, insulation made from recycled materials uses less energy to make. A win-win!`,
+                This insulation was made from old blue jeans. While all types of insulation help make homes more energy efficient, insulation made from recycled materials uses less energy to make. A win-win! <span class="italic">Photo by Zane Selvans on Flickr</span>`,
             `<span class="font-bold">Herd of grazing animals: </span>
-                Grazing animals travel in herds for safety, like this herd of buffalo in the Serengeti.`,
+                Grazing animals travel in herds for safety, like this herd of buffalo in the Serengeti. <span class="italic">Photo by Hu Chen on Unsplash</span>`,
             `<span class="font-bold">Inside an LED light bulb: </span>
-                These light bulbs each have multiple LEDs inside of them (little orange squares) that create bright light when electricity runs through them.`,
+                These light bulbs each have multiple LEDs inside of them (little orange squares) that create bright light when electricity runs through them. <span class="italic">Photo by Green Energy Futures on Flickr</span>`,
             `<span class="font-bold">Staple crop trees: </span>
-                This farmer in Kenya has created a climate-smart farm that includes perennial fruit trees. `,
+                This farmer in Kenya has created a climate-smart farm that includes perennial fruit trees. <span class="italic">Photo by C. Schubert (CCAFS) on Flickr</span>`,
             `<span class="font-bold">Intercropped farm: </span>
-                This woman shows her rubber plants and vegetables that she is growing together.`
+                This woman shows her rubber plants and vegetables that she is growing together. <span class="italic">Photo by Photo by Julius Atia / World Agroforestry on Flickr</span>`
         ],
         subheader2: [
             //1-5
