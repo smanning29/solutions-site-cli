@@ -329,49 +329,49 @@ export default {
         caption2: [
             //1-5
             `<span class="font-bold">Acting it out: </span>
-                To help change negative attitudes about ugly produce, these kids wrote a comedy sketch to laugh about it. Making a subject funny is a good way to raise awareness.`,
+                To help change negative attitudes about ugly produce, these kids wrote a comedy sketch to laugh about it. Making a subject funny is a good way to raise awareness. <span class="italic">Photo by Isabel Cousins</span>`,
             `<span class="font-bold">Speaking up to protect the planet: </span>
-                These young women are members of SPEAK.WORLD, an organization that empowers young women to use their voices for change. `,
+                These young women are members of SPEAK.WORLD, an organization that empowers young women to use their voices for change. <span class="italic">Photo by Beth Osens</span>`,
             `<span class="font-bold">Plant-based burgers: </span>
-                New plant-based burgers are being made to taste just like hamburgers. People may eat more plant-based foods when they look more like the meat-based foods they like.`,
+                New plant-based burgers are being made to taste just like hamburgers. People may eat more plant-based foods when they look more like the meat-based foods they like. <span class="italic">Photo by Dllu on Wikimedia Commons</span>`,
             `<span class="font-bold">Montreal Protocol timeline: </span>
                 This timeline shows when major events for the Montreal Protocol happened.`,
             `<span class="font-bold">New Guinea forests: </span>
-                New Guinea has more plant species than any other island. These researchers are learning about the forest and its plants so they can better protect it.`,
+                New Guinea has more plant species than any other island. These researchers are learning about the forest and its plants so they can better protect it. <span class="italic">Photo by William J. Baker, Royal Botanic Gardens, Kew</span>`,
             //6-10
             `<span class="font-bold">Wind turbine setup: </span>
-            Engineers set up wind turbines on existing farmland, and they only need to come for repairs.`,
+            Engineers set up wind turbines on existing farmland, and they only need to come for repairs. <span class="italic">Photo by REVE (Wind Energy and Electric Vehicle Magazine)</span>`,
             `<span class="font-bold">Acting it out: </span>
-            Comedic skits can actively communicate local actions for refrigerant management in a fun and engaging way. In this skit entitled “Grandma Fridge Cools Off” a family is taking their aging grandmother, who is a refrigerator, to Rocky Mountain National Park for one last vacation before she gets properly recycled through an Environmental Protection Agency-approved local program. This was performed at Rocky Mountain National Park on Discovery Day to educate park visitors about the importance of properly disposing of aging refrigerators. The skit is available at (link) `,
+            Comedic skits can actively communicate local actions for refrigerant management in a fun and engaging way. In this skit entitled “Grandma Fridge Cools Off” a family is taking their aging grandmother, who is a refrigerator, to Rocky Mountain National Park for one last vacation before she gets properly recycled through an Environmental Protection Agency-approved local program. This was performed at Rocky Mountain National Park on Discovery Day to educate park visitors about the importance of properly disposing of aging refrigerators. The skit is available at (link). <span class="italic">Photo by Isabel Cousins</span>`,
                 //LINK TO ACT PAGE
             `<span class="font-bold">Desert solar farm: </span>
-                Solar farms work well in flat, hot places that get lots of sunlight.`,
+                Solar farms work well in flat, hot places that get lots of sunlight. <span class="italic">Photo by U.S. Department of the Interior on Wikimedia Commons</span>`,
             `<span class="font-bold">Open fire cooking: </span>
-                It is important to consider the people who will use clean cookstoves when we design them. A local non-profit organization gifted this woman, in Chajul, Guatemala, a clean cookstove. (You can see it behind her this photo). However, she continues to cook on a three stone open fire because she prefers her traditional way of cooking. The new clean stove is too tall, not easy for her to use.`,
+                It is important to consider the people who will use clean cookstoves when we design them. A local non-profit organization gifted this woman, in Chajul, Guatemala, a clean cookstove. (You can see it behind her this photo). However, she continues to cook on a three stone open fire because she prefers her traditional way of cooking. The new clean stove is too tall, not easy for her to use. <span class="italic">Photo by Jason Bisping</span>`,
             `<span class="font-bold">Solar LED Lighting: </span>
-                LED lights are very energy efficient, so they can be used with solar panels to bring light to places that do not have a power grid. This woman is fixing the solar powered light for her village in India.`,
+                LED lights are very energy efficient, so they can be used with solar panels to bring light to places that do not have a power grid. This woman is fixing the solar powered light for her village in India. <span class="italic">Photo by Abbie Trayler-Smith / Panos Pictures / Department for International Development</span>`,
             //11-15
             `<span class="font-bold">Silvopastoral Farm: </span>
-                Cows grazing in fields that use silvopasture can rest in the shade of the trees. This can help the both the cows and the pasture recover.`,
+                Cows grazing in fields that use silvopasture can rest in the shade of the trees. This can help the both the cows and the pasture recover. <span class="italic">Photo by CSTAF</span>`,
             `<span class="font-bold">A piece of peat: </span>
-                This may look like just dirt, but it is actually peat! This chunk is full of decayed organic matter. It is very rich with carbon and could be burned, almost like wood.`,
+                This may look like just dirt, but it is actually peat! This chunk is full of decayed organic matter. It is very rich with carbon and could be burned, almost like wood. <span class="italic">Photo by David Stanley on Flickr</span>`,
             `<span class="font-bold">Earth Guardian Leaders: </span>
-                Youth leaders of the activist group Earth Guardians created a “pledge to plant” Earth Day challenge to their international youth groups to encourage the planting of trees on degraded land.`,
+                Youth leaders of the activist group Earth Guardians created a “pledge to plant” Earth Day challenge to their international youth groups to encourage the planting of trees on degraded land. <span class="italic">Photo by Inside the Greenhouse</span>`,
             `<span class="font-bold">Save old growth forests: </span>
-                Activists in Vancouver, Canada are speaking up about protecting old growth forests to help save our climate. `,
+                Activists in Vancouver, Canada are speaking up about protecting old growth forests to help save our climate. <span class="italic">Photo by Peter Osnes</span>`,
             `<span class="font-bold">Solar power tower: </span>
-                This concentrated solar power plant tower in California glows at night becuase the inside is full of liquid salt that stays warm after the sun goes down.`,
+                This concentrated solar power plant tower in California glows at night becuase the inside is full of liquid salt that stays warm after the sun goes down. <span class="italic">Photo by Ken Lund on Flickr</span>`,
             //16-20
             `<span class="font-bold">The thermal layer: </span>
                 This is a simple diagram that shows how insulation keeps the temperature inside the house cool even though the sun’s warm rays touch the roof, walls, and windows. `,
             `<span class="font-bold">Cattle grazing: </span>
-                Cows can help keep the grass trimmed, but if they graze for too long, they will eat too much grass. By moving cows between fields, the grasses stay healthy because they have time to regrow.`,
+                Cows can help keep the grass trimmed, but if they graze for too long, they will eat too much grass. By moving cows between fields, the grasses stay healthy because they have time to regrow. <span class="italic">Photo by Dhruv Mehra on Unsplash</span>`,
             `<span class="font-bold">LED stage lighting: </span>
-                This green suited students is lit by theatrical LED lights which are energy efficient. Green Suits is a fun participatory photography project to communicate climate.`,
+                This green suited students is lit by theatrical LED lights which are energy efficient. Green Suits is a fun participatory photography project to communicate climate. <span class="italic">Photo by Sarah Manning and Samantha Dunlap</span>`,
             `<span class="font-bold">Acting it out: </span>
-                These youth are enacting a skit about how both tomatoes and eggplants are foods that can grow as perennials in some areas.`,
+                These youth are enacting a skit about how both tomatoes and eggplants are foods that can grow as perennials in some areas. <span class="italic">Photo by Patrick Campbell</span>`,
             `<span class="font-bold">Tropical intercropping: </span>
-                This farm is Rwanda grows coffee plants and banana trees together.`,
+                This farm is Rwanda grows coffee plants and banana trees together. <span class="italic">Photo by Neil Palmer (CIAT) on Wikimedia Commons</span>`,
         ],
         subheader4: [
             //1-5

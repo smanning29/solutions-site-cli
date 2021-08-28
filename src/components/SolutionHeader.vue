@@ -18,12 +18,12 @@
             <div class="lg:w-1/4 md:w-3/4 w-full text-right flex flex-row ">
                 <div class="w-11/12">
                     <transition name="slide-fade">
-                        <div v-show="showPhotoCred==true" class="px-5 py-2 bg-sky75 hover:underline" v-html="photoCred" >
+                        <div v-show="showPhotoCred==true" class="px-5 py-2 bg-sky75 hover:underline italic" v-html="photoCred" >
                             Photo cred
                         </div>
                     </transition>
                 </div>
-                <div class="w-1/12 pl-2 py-2 bg-sky" v-on:click="togglePhotoCred()">
+                <div class="w-1/12 pl-2 pr-7 py-2 bg-sky" v-on:click="togglePhotoCred()">
                    <svg v-if="showPhotoCred==false" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.45 48.49" width="20">
                     <path d="M29.08,1.18,11.65,24a1.77,1.77,0,0,0-.3,1.53h0a2.31,2.31,0,0,0,.1.28.25.25,0,0,0,0,.07,1.06,1.06,0,0,0,.12.2.56.56,0,0,0,.05.08L29.09,49a1.77,1.77,0,0,0,2.49.33l0,0A1.78,1.78,0,0,0,32,46.86L15.35,25.1,31.94,3.36A1.78,1.78,0,0,0,31.6.87l0,0A1.78,1.78,0,0,0,29.08,1.18Z" fill="#000"/></svg>
                    <svg v-if="showPhotoCred==true" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.45 48.49" width="20">
