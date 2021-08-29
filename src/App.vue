@@ -9,14 +9,14 @@
         <div class="md:w-5/12 w-1/8"></div>
         <div id="nav" class="md:w-1/12 w-1/8 md:pt-4 pt-2 text-body text-sml md:text-base text-drawdown text-right pb-0 mb-0">
           <router-link to="/" class="px-5 hover:text-sky" data-aos="fade" data-aos-delay="50" v-on:hover="changeIconColor()">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.48 435.45" width="60"><g id="dd-adapted"><path d="M473.59,207Q363.36,109.67,253.18,12.25c-7.58-6.73-12.67-7.55-20.69-.43C161.92,74.5,91,136.74,20.22,199.25c-18.78,16.6-18,16.35-2.22,35.6,7.93,9.68,13.12,9,21.82,1.2Q56.18,221.49,72.6,207v7.68c0,.59-.07,1.2-.07,1.83q.06,34.05.07,68.1v6.1h0q0,60,0,120c0,13,5.83,19.31,19.06,19.23,28.31-.18,270.6.07,297.54-.05,19.89-.08,23.38-3.46,23.46-22.95.14-31,0-62,0-93q0-17.25,0-34.51V252.18q0-16.32.14-32.63c0-1.27,0-2.48-.14-3.67V206.7l32.6,28.64c4,3.55,8.37,11.54,14.56,6.44a99.87,99.87,0,0,0,22-25.06C480.49,211.62,476.6,209.66,473.59,207ZM353.94,237.4c.22,30,0,30-30.41,30-32.07-.46-27.91,4.33-28.13-28.31-.2-30,0-30.22,30.5-30C358.28,209.4,353.69,204.8,353.94,237.4Z" class="svgDrawdown hover:svgSky transform hover:scale-1025"/></g></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.48 435.45" width="60"><g id="dd-adapted"><path d="M473.59,207Q363.36,109.67,253.18,12.25c-7.58-6.73-12.67-7.55-20.69-.43C161.92,74.5,91,136.74,20.22,199.25c-18.78,16.6-18,16.35-2.22,35.6,7.93,9.68,13.12,9,21.82,1.2Q56.18,221.49,72.6,207v7.68c0,.59-.07,1.2-.07,1.83q.06,34.05.07,68.1v6.1h0q0,60,0,120c0,13,5.83,19.31,19.06,19.23,28.31-.18,270.6.07,297.54-.05,19.89-.08,23.38-3.46,23.46-22.95.14-31,0-62,0-93q0-17.25,0-34.51V252.18q0-16.32.14-32.63c0-1.27,0-2.48-.14-3.67V206.7l32.6,28.64c4,3.55,8.37,11.54,14.56,6.44a99.87,99.87,0,0,0,22-25.06C480.49,211.62,476.6,209.66,473.59,207ZM353.94,237.4c.22,30,0,30-30.41,30-32.07-.46-27.91,4.33-28.13-28.31-.2-30,0-30.22,30.5-30C358.28,209.4,353.69,204.8,353.94,237.4Z" class="svgDrawdown hover:svgSky"/></g></svg>
           </router-link>
         </div>
     </div>
     <router-view/>
     <footer class="md:flex md:flex-row w-full md:px-10 px-5 pb-10 text-drawdown italic">
       <div class="md:w-1/2 pb-5 md:pb-0">
-        <a href="" class="pb-2 hover:underline">Resources for educators</a>
+        <router-link to="/about" class="pb-2 hover:underline">Resources for educators</router-link>
         <br>
         Created for <a href="" class="hover:underline focus:text-sky">Enacting Climate</a>
       </div>
