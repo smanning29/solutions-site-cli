@@ -6,6 +6,8 @@
     position: relative;
     height: auto;
     max-height: 100%;
+    object-fit: cover;
+    transition: .5s ease;
   }
   
   .overlay { /* Overlay from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
@@ -29,9 +31,13 @@
     width: 100%;
     height: inherit;
     max-height: 100%;
-    object-fit: contain;
+    object-fit: cover;
   }
   
+  .hover-container:hover {
+    transform: scale(1.025);
+  }
+
   .hover-text {
     position: absolute;
     top: 50%;

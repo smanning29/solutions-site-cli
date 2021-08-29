@@ -19,6 +19,11 @@ const routes = [
     path: '/Solutions',
     name: 'Solutions',
     component: () => import('../views/Solutions.vue')
+  },
+  {
+    path: '/Glossary',
+    name: 'Glossary',
+    component: () => import('../views/Glossary.vue')
   }
 ]
 

@@ -101,7 +101,13 @@
       </router-link>
     </div>
 
-    <div class="lg:w-full md:w-2/3 w-full p-4 relative" data-aos="fade" data-aos-delay="500">
+    <div class="lg:w-1/5 md:w-1/3 w-full p-4 relative" data-aos="fade" data-aos-delay="500">
+      <router-link to="/glossary">
+        <HoverBoxE top-text="Visit the" main-text="Glossary" img-name="c-glossary" />
+      </router-link>
+    </div>
+
+    <div class="lg:w-4/5 w-full p-4 relative" data-aos="fade" data-aos-delay="500">
       <router-link to="/about">
         <HoverBoxE top-text="Learn More About" main-text="Climate Solutions For Kids" img-name="c-full" />
       </router-link>
@@ -113,7 +119,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import { mapState, mapMutations} from "vuex";
 import HoverBox from '@/components/HoverBox.vue'
 import HoverBoxE from '@/components/HoverBoxE.vue'

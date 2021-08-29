@@ -9,7 +9,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import { mapState, mapMutations} from "vuex";
 import SolutionHeader from '@/components/SolutionHeader.vue';
 import SolutionBody from '@/components/SolutionBody.vue';

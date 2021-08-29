@@ -4,11 +4,11 @@
             <!-- v-bind:style="{ backgroundImage: bgImgs[solutionIndex]}" x-init="changeBgImage()" -->
     <div class="flex flex-row pb-24 lg:pb-28" >
         <button class="flex-initial w-1/8 object-left lg:pl-8"  v-on:click="decreaseSolutionIndex()">
-            <img src="../assets/img/left.png" alt="Left arrow" id="l-arrow" class="object-left text-left" data-aos="fade" data-aos-delay="100">
+            <img src="../assets/img/left.png" alt="Left arrow" id="l-arrow" class="object-left text-left transform hover:scale-105 motion-reduce:transform-none" data-aos="fade" data-aos-delay="100">
         </button>
         <div class="w-3/4">  </div>
         <button class="flex-initial w-1/8 object-right"  v-on:click="increaseSolutionIndex()"> 
-            <img src="../assets/img/right.png" alt="Right arrow" id="r-arrow" class="object-right text-right right-0" data-aos="fade" data-aos-delay="100">
+            <img src="../assets/img/right.png" alt="Right arrow" id="r-arrow" class="object-right text-right right-0 transform hover:scale-105 motion-reduce:transform-none" data-aos="fade" data-aos-delay="100">
         </button>
     </div>
         <!-- SOLUTION NUMBER AND TITLE -->
