@@ -100,7 +100,8 @@ module.exports = {
       backgroundPosition: {
         'top-1': 'left 10%',
        'top-2': '50% 10%',
-       'top-3': '50% 3%'
+       'top-3': '50% 3%',
+       'top-4': '40% 3%'
       },
       scale: {
        '1025': '1.025',

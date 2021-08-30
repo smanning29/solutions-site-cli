@@ -1,5 +1,5 @@
 <template>
-  <div> 
+  <div class="m-0"> 
       <!-- ['{ backgroundImage:url(../assets/img/s'+solutionNum+'-0.jpg)}'] -->
             <!-- v-bind:style="{ backgroundImage: bgImgs[solutionIndex]}" x-init="changeBgImage()" -->
     <div class="flex flex-row pb-24 lg:pb-28" >
@@ -38,7 +38,7 @@
             </p>
         </div>
         <div class="w-full bg-drawdown px-10 pt-2" >
-            <h2 class="text-left text-white font-display text-md md:text-mdlg" > 
+            <h2 class="text-left text-white font-display leading-tight text-md md:text-mdlg" > 
                 <!-- v-html="solHeaders[solutionIndex]" -->
                 {{solutionName}}
             </h2>

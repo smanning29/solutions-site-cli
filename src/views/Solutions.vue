@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-fixed pt-24 lg:pt-32 xl:bg-top-1 lg:bg-center-top md:bg-top-2 bg-top-3 bg-no-repeat lg:bg-100 xl:bg-90 z-10" :style="'background-image: '+ bgImgs[solutionIndex]" data-aos="fade" id="top-anchor">
+  <div class="bg-fixed pt-24 lg:pt-32 xl:bg-top-1 lg:bg-center-top md:bg-top-4 bg-no-repeat lg:bg-100 xl:bg-90 z-10" :style="'background-image: '+ bgImgs[solutionIndex]" data-aos="fade" id="top-anchor">
     <SolutionHeader :solution-num="(solutionIndex+1)" :solution-name="solHeaders[solutionIndex]" :photo-cred="bgImgCredit[solutionIndex]"/>
-    <div class="lg:flex lg:flex-row bg-white font-body">
+    <div class="lg:flex lg:flex-row bg-white font-body m-0">
         <SolutionBody :solution-num="(solutionIndex+1)" :first-par="paragraph1[solutionIndex]" :first-sub="subheader1[solutionIndex]" :second-par="paragraph2[solutionIndex]" :first-img-cap="caption1[solutionIndex]" :second-sub="subheader2[solutionIndex]" :third-par="paragraph3[solutionIndex]" :third-sub="subheader3[solutionIndex]" :fourth-par="paragraph4[solutionIndex]" :second-img-cap="caption2[solutionIndex]" :fourth-sub="subheader4[solutionIndex]" :fifth-par="paragraph5[solutionIndex]" />
         <SolutionAside :co-num="co2[solutionIndex]" :key-words="keyWords[solutionIndex]" :sol-link="DDlinks[solutionIndex]" :sol-pdf="PDFlinks[solutionIndex]" />
     </div>

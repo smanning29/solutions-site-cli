@@ -4,31 +4,31 @@
         <div class="lg:order-2 lg:w-3/4" data-aos="fade">
 
             <!-- REQ -->
-            <p class="p-5 text-smd mt-5 md:leading-8" v-html="firstPar">
+            <p class="p-5 md:text-smd text-sml mt-5 md:leading-8" v-html="firstPar">
                 paragraph 1
             </p>
-            <h3 class="font-light font-body text-base text-drawdown tracking-wide px-5"  v-html="firstSub">
+            <h3 class="font-light font-body md:text-base text-smd text-drawdown tracking-wide px-5"  v-html="firstSub">
                 subheader 1
             </h3>
-            <p class="p-5 text-smd md:leading-8" v-html="secondPar">
+            <p class="p-5 md:text-smd text-sml  md:leading-8" v-html="secondPar">
                 paragraph 2
             </p>
             <img :src="['../assets/img/s'+ solutionNum +'-1.jpg']" alt="Image" class="px-5">
             <div class="text-drawdown p-5" v-html="firstImgCap" >
                 image caption
             </div>
-            <h3 class="font-light font-body text-base text-drawdown tracking-wide px-5" v-html="secondSub">
+            <h3 class="font-light font-body md:text-base text-smd text-drawdown tracking-wide px-5" v-html="secondSub">
                 subheader 2
             </h3>
-            <p class="p-5 text-smd md:leading-8" v-html="thirdPar">
+            <p class="p-5 md:text-smd text-sml  md:leading-8" v-html="thirdPar">
                 paragraph 3
             </p>
 
             <!-- CONDITIONAL PARAGRAPHS -->
-            <h3 v-if="thirdSub != 'no'" class="font-light font-body text-base text-drawdown tracking-wide px-5" v-html="thirdSub">
+            <h3 v-if="thirdSub != 'no'" class="font-light font-body md:text-base text-smd text-drawdown tracking-wide px-5" v-html="thirdSub">
                 subheader 3
             </h3>
-            <p v-if="fourthPar != 'no'" class="p-5 text-smd md:leading-8" v-html="fourthPar">
+            <p v-if="fourthPar != 'no'" class="p-5 md:text-smd text-sml md:leading-8" v-html="fourthPar">
                 paragraph 4
             </p>
 
@@ -39,10 +39,10 @@
             </div>
 
             <!-- CONDITIONAL PARAGRAPHS -->
-            <h3 v-if="fourthSub != 'no'" class="font-light font-body text-base text-drawdown tracking-wide px-5" v-html="fourthSub">
+            <h3 v-if="fourthSub != 'no'" class="font-light font-body md:text-base text-smd text-drawdown tracking-wide px-5" v-html="fourthSub">
                 subheader 4
             </h3>
-            <p v-if="fifthPar != 'no'" class="p-5 text-smd md:leading-8" v-html="fifthPar">
+            <p v-if="fifthPar != 'no'" class="p-5 md:text-smd text-sml md:leading-8" v-html="fifthPar">
                 paragraph 5
             </p>
 
@@ -54,13 +54,13 @@
                 </div>
             </div> -->
 
-            <div class="flex flex-row p-5 pb-10">
+            <div class="flex flex-row p-5 lg:pb-10">
                 
-                    <a class="w-1/2 transition duration-500 ease-in-out bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center mr-2 p-5 text-smd rounded-md transform hover:scale-1025 motion-reduce:transform-none motion-reduce:transition-none" v-on:click="decreaseSolutionIndex()" href="#top-anchor">
+                    <a class="w-1/2 transition duration-500 ease-in-out bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center mr-2 p-5 md:text-smd text-sml rounded-md transform hover:scale-1025 motion-reduce:transform-none motion-reduce:transition-none" v-on:click="decreaseSolutionIndex()" href="#top-anchor">
                         PREVIOUS SOLUTION
                     </a>
                 
-                    <a class="w-1/2 transition duration-500 ease-in-out bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center ml-2 p-5 text-smd rounded-md transform hover:scale-1025 motion-reduce:transform-none motion-reduce:transition-none" v-on:click="increaseSolutionIndex()" href="#top-anchor">
+                    <a class="w-1/2 transition duration-500 ease-in-out bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center ml-2 p-5 md:text-smd text-sml rounded-md transform hover:scale-1025 motion-reduce:transform-none motion-reduce:transition-none" v-on:click="increaseSolutionIndex()" href="#top-anchor">
                         NEXT SOLUTION
                     </a>
             </div>

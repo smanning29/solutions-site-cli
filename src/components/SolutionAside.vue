@@ -1,6 +1,6 @@
 <template>
   
-    <div class="lg:order-1 lg:w-1/4 p-5" data-aos="fade">
+    <div class="lg:order-1 lg:w-1/4 lg:p-5 pb-5 px-5" data-aos="fade">
 
         <div class="my-5 p-5 bg-forest text-white font-light tracking-wider text-smd transform hover:scale-1025 transition duration-500 ease-in-out motion-reduce:transition-none motion-reduce:transform-none" >
             <div class="font-display text-md leading-none pb-2" v-html="coNum">
